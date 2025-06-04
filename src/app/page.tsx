@@ -6,6 +6,7 @@ import { DeviceDemo } from "@/components/device-demo";
 import { TestimonialSection } from "@/components/testimonial-section";
 import { CTASection } from "@/components/cta-section";
 import { constructMetadata } from "@/lib/utils";
+import { BlogSection } from "@/components/blog-section";
 
 export const metadata = constructMetadata({});
 
@@ -19,6 +20,7 @@ export default function Home() {
           <AboutSection />
           <HowItWorksSection />
           <DeviceDemo />
+          <BlogSection />
           <TestimonialSection />
           <CTASection />
         </div>
